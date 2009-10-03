@@ -15,7 +15,9 @@
 @synthesize kitten;
 
 -(id)initWithLabel:(UILabel *)label message:(NSString *)mess {
+#ifdef DEBUG
 	NSLog(@"Creating new item");
+#endif
 	self.item = label;
 	self.message = mess;
 	self.kitten = NO;
@@ -23,7 +25,9 @@
 }
 
 - (void)dealloc {
+#ifdef DEBUG
 	NSLog(@"Being deallocd");
+#endif
 	[item dealloc];
 	[message dealloc];
     [super dealloc];

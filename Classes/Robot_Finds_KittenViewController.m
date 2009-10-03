@@ -83,8 +83,9 @@
 	// Mark one of the items as the kitten!
 	ScreenItem *item = [items objectAtIndex:arc4random() % [items count]];
 	item.kitten = YES;
-	//item.item.text = @"@";
-	
+#ifdef DEBUG
+	item.item.text = @"@";
+#endif
 	// Draw the robot, but make sure we don't draw it on top of another item
 	int top, left;
 	do {
