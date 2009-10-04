@@ -73,9 +73,12 @@
 		
 		// make sure there isn't already a character at this position		
 		if ([self itemAtLocation:CGRectMake(top, left, 20, 20)] != nil) continue;
-		
-		int charaCode = arc4random() % (126-'!'+1)+'!';
-		NSString *theCharacter = [[NSString alloc] initWithFormat:@"%c", charaCode];
+
+		NSString *theCharacter;
+		do {
+			int charaCode = arc4random() % (126-'!'+1)+'!';
+			theCharacter = [[NSString alloc] initWithFormat:@"%c", charaCode];			
+		} while ([theCharacter compare:@"#"] == NSOrderedSame);
 		[self createCharacter:theCharacter top:top left:left color:[colors objectAtIndex:arc4random() % [colors count]] bold:YES];
 		[theCharacter release];
 	}
@@ -86,6 +89,7 @@
 #ifdef DEBUG
 	item.item.text = @"@";
 #endif
+	
 	// Draw the robot, but make sure we don't draw it on top of another item
 	int top, left;
 	do {

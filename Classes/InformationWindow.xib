@@ -43,7 +43,7 @@
 					<object class="IBUILabel" id="168290084">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 34}, {280, 295}}</string>
+						<string key="NSFrame">{{20, 41}, {280, 295}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -52,8 +52,8 @@
 IGtpdHRlbi4gVGhpcyB0YXNrIGlzIGNvbXBsaWNhdGVkIGJ5IHRoZSBleGlzdGVuY2Ugb2YgdmFyaW91
 cyB0aGluZ3Mgd2hpY2ggYXJlIG5vdCB0aGUga2l0dGVuLiBZb3UgbXVzdCB0b3VjaCBpdGVtcyB0byBk
 ZXRlcm1pbmUgaWYgdGhleSBhcmUgdGhlIGtpdHRlbiBvciBub3QuIFRoZSBnYW1lIGVuZHMgd2hlbiBy
-b2JvdGZpbmRza2l0dGVuLiAKCk1vdmUgdGhlIHJvYm90IGJ5IHRvdWNoaW5nIHRoZSBwYWRzIGF0IHRo
-ZSBzaWRlcyBvZiB0aGUgc2NyZWVuLg</string>
+b2JvdGZpbmRza2l0dGVuLiAKCk1vdmUgdGhlIHJvYm90IGJ5IHRvdWNoaW5nIHRoZSBmb3VyIGJ1dHRv
+bnMgYWxvbmcgZWFjaCBzaWRlIG9mIHRoZSBzY3JlZW4uA</string>
 						<object class="NSFont" key="IBUIFont">
 							<string key="NSName">CourierNewPSMT</string>
 							<double key="NSSize">17</double>
@@ -106,9 +106,9 @@ ZSBzaWRlcyBvZiB0aGUgc2NyZWVuLg</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string type="base64-UTF8" key="IBUIText">T3JpZ2luYWxseSBieSBMZW9uYXJkIFJpY2hhcmRzb24gwqkgMTk5NywgMjAwMAppUGhvbmUgcG9ydCBi
-eSBHZW9mZnJleSBHYWxsYXdheSA8cmZrQGdlb2ZmZWcub3JnPgpodHRwOi8vY29kZS5nb29nbGUuY29t
-L3AvaXBob25lcmZrLw</string>
+						<string type="base64-UTF8" key="IBUIText">wqkgMjAwOSBHZW9mZnJleSBHYWxsYXdheSA8cmZrQGdlb2ZmZWcub3JnPgpPcmlnaW5hbGx5IGJ5IExl
+b25hcmQgUmljaGFyZHNvbiDCqSAxOTk3LCAyMDAwCmh0dHA6Ly9jb2RlLmdvb2dsZS5jb20vcC9pcGhv
+bmVyZmsvA</string>
 						<object class="NSFont" key="IBUIFont">
 							<string key="NSName">Helvetica</string>
 							<double key="NSSize">12</double>
@@ -197,8 +197,8 @@ L3AvaXBob25lcmZrLw</string>
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="605534407"/>
 							<reference ref="282566624"/>
-							<reference ref="168290084"/>
 							<reference ref="832031856"/>
+							<reference ref="168290084"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -252,7 +252,7 @@ L3AvaXBob25lcmZrLw</string>
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>InformationWindowViewController</string>
 					<string>UIResponder</string>
-					<string>{{172, 376}, {320, 480}}</string>
+					<string>{{340, 376}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>

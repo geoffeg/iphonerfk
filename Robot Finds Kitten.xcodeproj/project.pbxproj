@@ -15,11 +15,11 @@
 		2899E5220DE3E06400AC0155 /* Robot_Finds_KittenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* Robot_Finds_KittenViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* Robot_Finds_KittenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* Robot_Finds_KittenViewController.m */; };
+		E57D0F6F10794B9E00309938 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E57D0F6E10794B9E00309938 /* Default.png */; };
 		E5DED86D107555F7003C3CDF /* ScreenItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DED86C107555F7003C3CDF /* ScreenItem.m */; };
 		E5DEDAA5107658AA003C3CDF /* InformationWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5DEDAA4107658AA003C3CDF /* InformationWindow.xib */; };
 		E5DEDAB11076638E003C3CDF /* InformationWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DEDAB01076638E003C3CDF /* InformationWindowViewController.m */; };
 		E5DEDB4D10766DB9003C3CDF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E5DEDB4C10766DB9003C3CDF /* Icon.png */; };
-		E5DEDB5D10766F5E003C3CDF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E5DEDB5C10766F5E003C3CDF /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +36,7 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Robot_Finds_Kitten_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Robot_Finds_Kitten_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Robot_Finds_Kitten-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Robot_Finds_Kitten-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		E57D0F6E10794B9E00309938 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		E599EC511074F8F40015B682 /* messages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = messages.h; sourceTree = "<group>"; };
 		E5DED86B107555F7003C3CDF /* ScreenItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenItem.h; sourceTree = "<group>"; };
 		E5DED86C107555F7003C3CDF /* ScreenItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenItem.m; sourceTree = "<group>"; };
@@ -43,7 +44,6 @@
 		E5DEDAAF1076638E003C3CDF /* InformationWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationWindowViewController.h; sourceTree = "<group>"; };
 		E5DEDAB01076638E003C3CDF /* InformationWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationWindowViewController.m; sourceTree = "<group>"; };
 		E5DEDB4C10766DB9003C3CDF /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		E5DEDB5C10766F5E003C3CDF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,12 +108,12 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E5DEDB5C10766F5E003C3CDF /* Default.png */,
 				E5DEDB4C10766DB9003C3CDF /* Icon.png */,
 				E5DEDAA4107658AA003C3CDF /* InformationWindow.xib */,
 				2899E5210DE3E06400AC0155 /* Robot_Finds_KittenViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Robot_Finds_Kitten-Info.plist */,
+				E57D0F6E10794B9E00309938 /* Default.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -177,7 +177,7 @@
 				2899E5220DE3E06400AC0155 /* Robot_Finds_KittenViewController.xib in Resources */,
 				E5DEDAA5107658AA003C3CDF /* InformationWindow.xib in Resources */,
 				E5DEDB4D10766DB9003C3CDF /* Icon.png in Resources */,
-				E5DEDB5D10766F5E003C3CDF /* Default.png in Resources */,
+				E57D0F6F10794B9E00309938 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
