@@ -17,7 +17,7 @@
 
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
-    
+    [application setStatusBarStyle:UIStatusBarStyleBlackOpaque animated:YES];
     // Override point for customization after app launch 
     [window addSubview:viewController.view];
 	[window addSubview:informationController.view];

@@ -13,5 +13,6 @@
 }
 
 -(IBAction) startGame:(id)sender;
+-(IBAction) startDemo:(id)sender;
 
 @end

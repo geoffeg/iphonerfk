@@ -417,5 +417,7 @@ static char* messages[] =
 	"The intermission from a 1930s silent movie.",
 	"It's an inverted billiard ball!",
 	"The spectre of Sherlock Holmes wills you onwards.",
-	
+	"No snuggles!",
+	"No assimilation!",
+	"EX-TERM-IN-ATE!",
 };

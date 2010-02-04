@@ -11,13 +11,11 @@
 @interface ScreenItem : NSObject {
 	UILabel *item;
 	NSString *message;
-	BOOL kitten;
 }
 
 @property (nonatomic, retain) UILabel *item;
 @property (nonatomic, retain) NSString *message;
-@property (nonatomic) BOOL kitten;
-
 
 -(id)initWithLabel:(UILabel *)label message:(NSString *)mess;
+
 @end

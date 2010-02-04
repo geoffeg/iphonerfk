@@ -59,6 +59,11 @@
 	[self.view setHidden:YES];
 }
 
+-(IBAction) startDemo:(id)sender {
+	[self.view setHidden:YES];
+	
+}
+
 - (void)dealloc {
     [super dealloc];
 }

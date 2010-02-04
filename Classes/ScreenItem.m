@@ -12,7 +12,6 @@
 
 @synthesize item;
 @synthesize message;
-@synthesize kitten;
 
 -(id)initWithLabel:(UILabel *)label message:(NSString *)mess {
 #ifdef DEBUG
@@ -20,7 +19,6 @@
 #endif
 	self.item = label;
 	self.message = mess;
-	self.kitten = NO;
 	return self;
 }
 
